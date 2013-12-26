@@ -1,6 +1,6 @@
 {
   "name": "generator-grunt-maven",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A generator for integrate Grunt with Maven",
   "keywords": [
     "yeoman-generator",
