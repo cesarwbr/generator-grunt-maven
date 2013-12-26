@@ -1,0 +1,8 @@
+.idea
+target
+yeoman-struts.iml
+node_modules
+src/main/webapp/dist
+.tmp
+.sass-cache
+src/main/webapp/app/bower_components

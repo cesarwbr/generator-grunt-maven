@@ -1,0 +1,46 @@
+{
+  "name": "generator-grunt-maven",
+  "version": "0.0.1",
+  "description": "A generator for integrate Grunt with Maven",
+  "keywords": [
+    "yeoman-generator",
+    "java",
+    "maven",
+    "grunt",
+    "angular"
+  ],
+  "homepage": "https://github.com/cesarwbr/generator-grunt-maven",
+  "bugs": "https://github.com/cesarwbr/generator-grunt-maven/issues",
+  "author": {
+    "name": "Cesar William Alvarenga",
+    "email": "cesarwbr@gmail.com",
+    "url": "https://github.com/cesarwbr"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cesarwbr/generator-grunt-maven.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.14.0",
+    "chalk": "~0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.8.0",
+    "npm": ">=1.2.10"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
