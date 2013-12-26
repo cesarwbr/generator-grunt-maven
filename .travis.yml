@@ -3,6 +3,4 @@ node_js:
   - '0.8'
   - '0.10'
 before_install:
-  - currentfolder=${PWD##*/}
-  - if [ "$currentfolder" != 'generator-grunt-maven' ]; then cd .. && eval "mv $currentfolder generator-grunt-maven" && cd generator-grunt-maven; fi
-
+  - npm install -g yo generator-grunt-maven
