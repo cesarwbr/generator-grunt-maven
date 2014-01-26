@@ -1,6 +1,6 @@
 # generator-grunt-maven [![Build Status](https://secure.travis-ci.org/cesarwbr/generator-grunt-maven.png?branch=master)](https://travis-ci.org/cesarwbr/generator-grunt-maven)
 
-A generator for [Yeoman](http://yeoman.io).
+A generator for [Yeoman](http://yeoman.io) for a Struts2 + Grunt + Maven.
 
 ![](http://f.cl.ly/items/3A3r0R3y2t2U2g3F1c2y/maven-grunt.png)
 

@@ -11,6 +11,7 @@ import java.util.List;
  * Created by cesar on 1/26/14.
  */
 public class SampleService {
+    private Long id;
     private String name;
     private String description;
 
@@ -29,6 +30,7 @@ public class SampleService {
 
     private SampleView saveSample() {
         SampleView sampleView = new SampleView();
+        sampleView.setId(this.id);
         sampleView.setName(this.name);
         sampleView.setDescription(this.description);
 
@@ -59,6 +61,14 @@ public class SampleService {
         sampleViews.add(sampleView);
 
         return sampleViews;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getName() {

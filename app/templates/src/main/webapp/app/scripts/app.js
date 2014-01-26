@@ -4,7 +4,8 @@ angular.module('angularApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
-  'ngRoute'
+  'ngRoute',
+  'sample.service'
 ])
   .config(function ($routeProvider) {
     $routeProvider
