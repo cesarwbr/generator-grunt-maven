@@ -10,4 +10,15 @@
         </action>
     </package>
 
+    <package name="sample" namespace="/sample" extends="json-default">
+        <interceptors>
+            <interceptor name="json" class="org.apache.struts2.json.JSONInterceptor"/>
+        </interceptors>
+        <action name="sample1" class="com.sample.service.SampleService" method="generic">
+            <interceptor-ref name="json">
+                <param name="contentType">application/json</param>
+            </interceptor-ref>
+        </action>
+    </package>
+
 </struts>
